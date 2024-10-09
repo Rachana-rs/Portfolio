@@ -37,7 +37,7 @@ const About = () => {
               <br />
               It is fascinating how mere numbers can tell stories, revealing hidden patterns and uncovering valuable insights that drive decision-making. As an aspiring data analyst, I thrive on the challenge of interpreting these stories, transforming raw data into compelling visuals, and helping businesses make informed, data-driven choices. It's not just about crunching numbers—it's about unlocking potential and shaping the future through the power of data.            </p>
             <ButtonLink
-              url='https://drive.google.com/file/d/18tcPpmajA_Bs81TdO8UoMcqixRQPC1y9/view?usp=drive_link'
+              url='https://drive.google.com/file/d/1Rw91GtjoomEGKIVR78daL-dRC_6kNbd1/view?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />
