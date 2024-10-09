@@ -81,6 +81,7 @@ export default Projects
 import React from "react";
 import vpn from '../assets/vpn.png';
 import copeople from '../assets/copeople.png';
+import t20 from '../assets/t20.png';
 import Footer from './Footer';
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
@@ -134,11 +135,11 @@ const Projects = () => {
 
 export const project = [
     {
-        title: 'Covid19 Analysis',
-        description: 'This project demonstrates the implementation of machine learning algorithms using Python in Google Colab. It explores data processing, model training, and evaluation techniques, providing an interactive environment for hands-on learning and experimentation.',
-        image: vpn,  // Correctly use the imported image
-        git: 'https://colab.research.google.com/drive/17_O9oeunSghnl_9hMSjhUv_J6G0349zh?usp=sharing',
-        technologies: ['Python', 'Matplotlib', 'Seaborn']
+        title: 't20 Cricket Data Analysis',
+        description: 'Dashboard to select various players for various categories(openers, middle order, finishers, all-rounders, fast bowlers) and ultimately choose the top 11 players to play in the match.',
+        image: t20,  // Correctly use the imported image
+        git: 'https://github.com/Rachana-rs/t20-Cricket-Analysis',
+        technologies: ['Python', 'Power BI']
     },
     {
         title: 'HR Analytics Power BI Dashboard',
@@ -146,7 +147,15 @@ export const project = [
         image: copeople,  // Correctly use the imported image
         git: "https://github.com/Rachana-rs/HR-Analytics-Dashboard",
         technologies: ['Power BI']
+    },
+    {
+        title: 'Covid19 Analysis',
+        description: 'This project demonstrates the implementation of machine learning algorithms using Python in Google Colab. It explores data processing, model training, and evaluation techniques, providing an interactive environment for hands-on learning and experimentation.',
+        image: vpn,  // Correctly use the imported image
+        git: 'https://colab.research.google.com/drive/17_O9oeunSghnl_9hMSjhUv_J6G0349zh?usp=sharing',
+        technologies: ['Python', 'Matplotlib', 'Seaborn']
     }
+    
 ];
 
 export default Projects;
